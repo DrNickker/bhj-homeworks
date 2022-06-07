@@ -1,10 +1,12 @@
-const sec = document.getElementById('timer');
+const seconds = document.getElementById("timer");
 
 const timer = setInterval(()=>{
-    sec.innerText--;
-    if (sec.innerText == 0) {
-        alert('Вы победили в конкурсе');
+    seconds.innerText--;
+    if (seconds.innerText ==0) {
+        alert ("Вы победили в конкурсе");
         clearInterval(timer);
     }
-}, 1000);
 
+
+
+}, 1000)
