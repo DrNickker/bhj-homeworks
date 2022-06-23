@@ -1,3 +1,4 @@
+
 let popup = document.querySelector('#modal_main');
 let close = document.querySelectorAll('div.modal__close');
 let successBtn = document.querySelector('.show-success');
@@ -17,3 +18,4 @@ close[1].onclick = function () {
     popup.className = 'modal';
     success.className = 'modal';
 };
+
