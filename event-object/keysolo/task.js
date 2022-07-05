@@ -25,7 +25,9 @@ class Game {
         } else {
             this.fail();
         }
+
     });
+
   }
 
   success() {
@@ -89,4 +91,3 @@ class Game {
 }
 
 new Game(document.getElementById('game'))
-
